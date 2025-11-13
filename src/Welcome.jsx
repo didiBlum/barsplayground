@@ -33,6 +33,7 @@ export default function Welcome() {
         <button onClick={() => navigate('/puzzle?mode=jigsaw')} style={btnStyle}>🧩 פאזל 2 (גרירה)</button>
         <button onClick={() => navigate('/memory')} style={btnStyle}>🃏 משחק זיכרון</button>
         <button onClick={() => navigate('/math')} style={btnStyle}>🔢 משחק חשבון</button>
+        <button onClick={() => navigate('/trivia')} style={btnStyle}>❓ משחק טריוויה</button>
       </div>
       <style>{`
         button.fun-bounce:hover {
